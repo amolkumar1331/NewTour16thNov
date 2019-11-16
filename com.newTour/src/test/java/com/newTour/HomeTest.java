@@ -13,6 +13,7 @@ public class HomeTest extends baseClass {
 
 		HomePO hp = PageFactory.initElements(driver, HomePO.class);
 		hp.clickRegister1();
+				System.out.println("hii");
 
 	}
 
