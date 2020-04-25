@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.newTour.HomeTest">
+        <methods>
+          <include name="test1"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.newTour.HomeTest -->
+      <class name="com.newTour.RegisterTest">
+        <methods>
+          <include name="test2"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.newTour.RegisterTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
