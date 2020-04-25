@@ -20,7 +20,7 @@ public class baseClass {
 		driver.get("http://www.newtours.demoaut.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		
+		System.out.println("adding msg in git server");
 		
 	}
 }
